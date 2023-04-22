@@ -89,7 +89,7 @@ const Coins = () => {
                 btns.map((item,index)=>(
                   <Button 
                   key={index}
-                  bgColor={'whiteAlpha.400'} 
+                  bgColor={'black'} 
                   color={"white"} 
                   onClick={()=>changePage(index+1)}
                   >
@@ -122,7 +122,8 @@ const CoinsCard = ({ id,name, img,symbol,price,currencySymbol="₹"}) => {
         transition={"all 0.3s"}
         m={"4"}
         p={"4"}
-        bgColor={"whiteAlpha.500"}
+        bgColor={"white"}
+        color={"black"}
         w={"52"}
         h={"52"}
         css={
