@@ -73,7 +73,7 @@ const ExchangeCard = ({ name, img, rank, url }) => {
         transition={"all 0.3s"}
         m={"4"}
         p={"4"}
-        bgColor={"blackAlpha.500"}
+        bgColor={"whiteAlpha.500"}
         w={"52"}
         h={"52"}
         css={
