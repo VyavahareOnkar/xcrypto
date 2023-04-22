@@ -48,7 +48,7 @@ const LineChart = ({ arr = [], currency, days, }) => {
 
             label: `Price in $(currency)`,
             data: prices,
-            borderColor: "black",
+            borderColor: "grey",
             backgroundColor: "red"
         }]
     }
